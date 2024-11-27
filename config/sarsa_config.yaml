@@ -1,0 +1,4 @@
+sarsa:
+  gamma: 0.99                 # Discount factor for future rewards
+  alpha: 0.1                  # Learning rate
+  epsilon: 0.1    

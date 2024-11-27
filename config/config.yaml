@@ -1,0 +1,14 @@
+
+environment:
+  board_size: 4            
+  action_space_size: 16
+
+# SARSA Hyperparameters
+sarsa:
+  gamma: 0.99                 # Discount factor for future rewards
+  alpha: 0.1                  # Learning rate
+  epsilon: 0.1                # Epsilon for epsilon-greedy policy
+
+# Training settings
+training:
+  episodes: 10000             # Number of training episodes
